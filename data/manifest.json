@@ -1,0 +1,15 @@
+{
+  "retrievedAt": "2026-10-25T06:22:04.820656+00:00",
+  "files": {
+    "windfor.json": {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2025-12-31T00:00:00Z&publishDateTimeTo=2026-02-01T00:00:00Z",
+      "rows": 18688,
+      "sha256": "f7531f5a839ead3516c4c713a9f8e310abd6bd3fc83b6f0f5ecb2e27d1cb53b2"
+    },
+    "fuelhh.json": {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?settlementDateFrom=2026-01-02&settlementDateTo=2026-02-01&fuelType=WIND",
+      "rows": 1488,
+      "sha256": "65402b5dde43a2bd28bb71edd345371a06006247e0e134ccba20c8ecfec93ba3"
+    }
+  }
+}
