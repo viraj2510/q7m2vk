@@ -4,11 +4,11 @@ A React + Python pilot for reviewing the national wind generation forecast avail
 
 ## Submission status
 
-- Application: implemented locally; deployment status recorded below when available.
-- Public repository: not yet published; existing GitHub CLI credentials are invalid.
-- Video: not yet recorded/uploaded. `docs/DEMO.md` contains a timed two-part recording script. A script does not satisfy the video requirement.
+- Application: [Wind Desk on Vercel](https://q7m2vk.vercel.app). React static frontend and Python API.
+- Public repository: [viraj2510/q7m2vk](https://github.com/viraj2510/q7m2vk).
+- Video: [Unlisted YouTube demo](https://youtu.be/oAJ6wWn_z6w), 6:11. Customer pilot 00:00–02:47; technical review 02:47–06:11. Uses synthetic narration and captured app screens, disclosed in the video and description. Local MP4: `docs/video/wind-desk-demo.mp4` (not committed).
 - Submission form: URL missing from the supplied brief. No form has been submitted.
-- No claim of anonymous/incognito verification is made until public URLs exist and are checked.
+- Anonymous HTTP checks returned 200 for the app, analysis API and public repository; the deployed app also loaded in the isolated in-app browser. A literal incognito-window check is still outstanding: native computer-use access to Chrome was not approved by the tool.
 
 ## Run
 
@@ -72,6 +72,8 @@ data/manifest.json        Retrieval provenance, URLs, row counts and SHA256 hash
 data/refresh.py           Explicit cohort download; never run on page requests
 tests/test_analysis.py    Leakage, missingness, units, date boundaries and API tests
 docs/DEMO.md              Customer pitch and technical walkthrough script
+docs/narration.json       Actual two-part video narration
+docs/create_demo.py       Local video generation from captures and narrated WAVs
 Dockerfile               Multi-stage frontend/Python image
 docker-compose.yml       Local container service
 vercel.json              Static frontend and Python API routing
@@ -105,3 +107,15 @@ For a public GitHub repo, use the anonymous name `q7m2vk`. After authenticating,
 - [Vercel Python runtime](https://vercel.com/docs/functions/runtimes/python)
 
 The assignment allows 16 hours; this repository deliberately limits scope to a coherent first pilot. No claim that recording, publication or submission is complete is made in their absence.
+
+## Verification log
+
+- Six analytical/API tests passed on 25 October 2026.
+- React production build passed; Vite reports a large JavaScript chunk (~596 kB uncompressed).
+- Local browser rendering and performance navigation checked; cutoff control exercised.
+- Docker engine is not installed on the execution machine; image build was not executed.
+
+- Deployed frontend and Python API returned successful anonymous responses; the default API metrics matched the local analysis.
+- Public repository returned HTTP 200 without authentication.
+
+- YouTube Studio confirmed Video published after Unlisted was selected. The watch page exposes the player and 6:11 duration.

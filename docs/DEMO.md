@@ -1,3 +1,7 @@
+# Published demo
+
+[Watch the unlisted demo](https://youtu.be/oAJ6wWn_z6w) — 6:11 total. Part 1: 00:00–02:47. Part 2: 02:47–06:11. The actual narration is in `narration.json`; this longer plan is retained for a possible human-recorded version. Uses synthetic narration and captured app screens.
+
 # Recording plan — 9 minutes 30 seconds
 
 Record a browser and microphone using OBS or your preferred screen recorder. The file and unlisted YouTube upload are still required; this script is not a substitute for the video.
